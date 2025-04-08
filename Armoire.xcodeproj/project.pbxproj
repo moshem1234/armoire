@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61541472DA4A4A500459656 /* ArmoireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61541462DA4A4A500459656 /* ArmoireApp.swift */; };
+		B61541492DA4A4A500459656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61541482DA4A4A500459656 /* ContentView.swift */; };
+		B615414B2DA4A4A700459656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B615414A2DA4A4A700459656 /* Assets.xcassets */; };
+		B615414E2DA4A4A700459656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B615414D2DA4A4A700459656 /* Preview Assets.xcassets */; };
+		B61541582DA4A4A700459656 /* ArmoireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61541572DA4A4A700459656 /* ArmoireTests.swift */; };
+		B61541622DA4A4A700459656 /* ArmoireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61541612DA4A4A700459656 /* ArmoireUITests.swift */; };
+		B61541642DA4A4A700459656 /* ArmoireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61541632DA4A4A700459656 /* ArmoireUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61541542DA4A4A700459656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B615413B2DA4A4A500459656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61541422DA4A4A500459656;
+			remoteInfo = Armoire;
+		};
+		B615415E2DA4A4A700459656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B615413B2DA4A4A500459656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61541422DA4A4A500459656;
+			remoteInfo = Armoire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61541432DA4A4A500459656 /* Armoire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armoire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61541462DA4A4A500459656 /* ArmoireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoireApp.swift; sourceTree = "<group>"; };
+		B61541482DA4A4A500459656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 1; };
+		B615414A2DA4A4A700459656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B615414D2DA4A4A700459656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B61541532DA4A4A700459656 /* ArmoireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmoireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61541572DA4A4A700459656 /* ArmoireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoireTests.swift; sourceTree = "<group>"; };
+		B615415D2DA4A4A700459656 /* ArmoireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmoireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61541612DA4A4A700459656 /* ArmoireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoireUITests.swift; sourceTree = "<group>"; };
+		B61541632DA4A4A700459656 /* ArmoireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61541402DA4A4A500459656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61541502DA4A4A700459656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B615415A2DA4A4A700459656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B615413A2DA4A4A500459656 = {
+			isa = PBXGroup;
+			children = (
+				B61541452DA4A4A500459656 /* Armoire */,
+				B61541562DA4A4A700459656 /* ArmoireTests */,
+				B61541602DA4A4A700459656 /* ArmoireUITests */,
+				B61541442DA4A4A500459656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61541442DA4A4A500459656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61541432DA4A4A500459656 /* Armoire.app */,
+				B61541532DA4A4A700459656 /* ArmoireTests.xctest */,
+				B615415D2DA4A4A700459656 /* ArmoireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61541452DA4A4A500459656 /* Armoire */ = {
+			isa = PBXGroup;
+			children = (
+				B61541462DA4A4A500459656 /* ArmoireApp.swift */,
+				B61541482DA4A4A500459656 /* ContentView.swift */,
+				B615414A2DA4A4A700459656 /* Assets.xcassets */,
+				B615414C2DA4A4A700459656 /* Preview Content */,
+			);
+			path = Armoire;
+			sourceTree = "<group>";
+		};
+		B615414C2DA4A4A700459656 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B615414D2DA4A4A700459656 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B61541562DA4A4A700459656 /* ArmoireTests */ = {
+			isa = PBXGroup;
+			children = (
+				B61541572DA4A4A700459656 /* ArmoireTests.swift */,
+			);
+			path = ArmoireTests;
+			sourceTree = "<group>";
+		};
+		B61541602DA4A4A700459656 /* ArmoireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B61541612DA4A4A700459656 /* ArmoireUITests.swift */,
+				B61541632DA4A4A700459656 /* ArmoireUITestsLaunchTests.swift */,
+			);
+			path = ArmoireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61541422DA4A4A500459656 /* Armoire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61541672DA4A4A700459656 /* Build configuration list for PBXNativeTarget "Armoire" */;
+			buildPhases = (
+				B615413F2DA4A4A500459656 /* Sources */,
+				B61541402DA4A4A500459656 /* Frameworks */,
+				B61541412DA4A4A500459656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Armoire;
+			productName = Armoire;
+			productReference = B61541432DA4A4A500459656 /* Armoire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B61541522DA4A4A700459656 /* ArmoireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B615416A2DA4A4A700459656 /* Build configuration list for PBXNativeTarget "ArmoireTests" */;
+			buildPhases = (
+				B615414F2DA4A4A700459656 /* Sources */,
+				B61541502DA4A4A700459656 /* Frameworks */,
+				B61541512DA4A4A700459656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61541552DA4A4A700459656 /* PBXTargetDependency */,
+			);
+			name = ArmoireTests;
+			productName = ArmoireTests;
+			productReference = B61541532DA4A4A700459656 /* ArmoireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B615415C2DA4A4A700459656 /* ArmoireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B615416D2DA4A4A700459656 /* Build configuration list for PBXNativeTarget "ArmoireUITests" */;
+			buildPhases = (
+				B61541592DA4A4A700459656 /* Sources */,
+				B615415A2DA4A4A700459656 /* Frameworks */,
+				B615415B2DA4A4A700459656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B615415F2DA4A4A700459656 /* PBXTargetDependency */,
+			);
+			name = ArmoireUITests;
+			productName = ArmoireUITests;
+			productReference = B615415D2DA4A4A700459656 /* ArmoireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B615413B2DA4A4A500459656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B61541422DA4A4A500459656 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B61541522DA4A4A700459656 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B61541422DA4A4A500459656;
+					};
+					B615415C2DA4A4A700459656 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B61541422DA4A4A500459656;
+					};
+				};
+			};
+			buildConfigurationList = B615413E2DA4A4A500459656 /* Build configuration list for PBXProject "Armoire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B615413A2DA4A4A500459656;
+			productRefGroup = B61541442DA4A4A500459656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61541422DA4A4A500459656 /* Armoire */,
+				B61541522DA4A4A700459656 /* ArmoireTests */,
+				B615415C2DA4A4A700459656 /* ArmoireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61541412DA4A4A500459656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B615414E2DA4A4A700459656 /* Preview Assets.xcassets in Resources */,
+				B615414B2DA4A4A700459656 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61541512DA4A4A700459656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B615415B2DA4A4A700459656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B615413F2DA4A4A500459656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61541492DA4A4A500459656 /* ContentView.swift in Sources */,
+				B61541472DA4A4A500459656 /* ArmoireApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B615414F2DA4A4A700459656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61541582DA4A4A700459656 /* ArmoireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61541592DA4A4A700459656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61541642DA4A4A700459656 /* ArmoireUITestsLaunchTests.swift in Sources */,
+				B61541622DA4A4A700459656 /* ArmoireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61541552DA4A4A700459656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61541422DA4A4A500459656 /* Armoire */;
+			targetProxy = B61541542DA4A4A700459656 /* PBXContainerItemProxy */;
+		};
+		B615415F2DA4A4A700459656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61541422DA4A4A500459656 /* Armoire */;
+			targetProxy = B615415E2DA4A4A700459656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B61541652DA4A4A700459656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B61541662DA4A4A700459656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61541682DA4A4A700459656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Armoire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Armoire.Armoire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B61541692DA4A4A700459656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Armoire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Armoire.Armoire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B615416B2DA4A4A700459656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Armoire.ArmoireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armoire.app/Armoire";
+			};
+			name = Debug;
+		};
+		B615416C2DA4A4A700459656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Armoire.ArmoireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Armoire.app/Armoire";
+			};
+			name = Release;
+		};
+		B615416E2DA4A4A700459656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Armoire.ArmoireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Armoire;
+			};
+			name = Debug;
+		};
+		B615416F2DA4A4A700459656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Armoire.ArmoireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Armoire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B615413E2DA4A4A500459656 /* Build configuration list for PBXProject "Armoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61541652DA4A4A700459656 /* Debug */,
+				B61541662DA4A4A700459656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61541672DA4A4A700459656 /* Build configuration list for PBXNativeTarget "Armoire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61541682DA4A4A700459656 /* Debug */,
+				B61541692DA4A4A700459656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B615416A2DA4A4A700459656 /* Build configuration list for PBXNativeTarget "ArmoireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B615416B2DA4A4A700459656 /* Debug */,
+				B615416C2DA4A4A700459656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B615416D2DA4A4A700459656 /* Build configuration list for PBXNativeTarget "ArmoireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B615416E2DA4A4A700459656 /* Debug */,
+				B615416F2DA4A4A700459656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B615413B2DA4A4A500459656 /* Project object */;
+}
