@@ -1,17 +1,19 @@
-//
-//  ArmoireApp.swift
-//  Armoire
-//
-//  Created by Armoire on 4/7/25.
-//
-
 import SwiftUI
+import FirebaseCore
 
 @main
 struct ArmoireApp: App {
+	init() {
+		configureFirebase()
+	}
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeViewControllerWrapper()
         }
     }
+	private func configureFirebase() {
+		if FirebaseApp.app() == nil {
+			FirebaseApp.configure()
+		}
+	}
 }
