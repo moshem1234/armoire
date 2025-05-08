@@ -1,5 +1,7 @@
-.dsStore
-
+.DS_Store
+GoogleService-Info.plist
+armoire/armoire.xcodeproj/
+≈
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
